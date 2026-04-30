@@ -12,17 +12,7 @@ tags:
   - Grade 1
   - Visual Effects
 ---
-{{< callout context="caution" title="Incomplete guide" icon="outline/info-circle" >}}
 
-
-
-This guide is missing the following:
-
-* Proofreading
-
-
-
-{{< /callout >}}
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 * Shaders can enhance your level's atmosphere and immersion, but they do not affect gameplay itself.
@@ -157,11 +147,11 @@ Color Boosting will be very beneficial for the next example and the example befo
 Contrast Boosters are created from edit colour shaders, where you just simply multiply the RGB values of an object. They are mainly used for reverting the effect of objects being washed out. For example, the 3 images below show the before and after of using an edit colour contrast booster, combined with the motion blur opacity mask.
 
 {{< img-grid >}}
-{{< img src="https://lh3.googleusercontent.com/d/1M9IMZb0QkZmr9cc6oOGs5aoSiJlAQ8i7" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1sAaWhYSW2WO-jSQV6TsZEXmwNDgBlQh0" >}}
 
 {{< img src="https://lh3.googleusercontent.com/d/1lJW1OVSyr6Dy7b2urTiYBVoXDe-TNPSC" >}}
 
-{{< img src="https://lh3.googleusercontent.com/d/1XZeH6jYLxRIFilIO1tYZwqvvjj59aH3f" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1Dtu-ENy1SFmCqIXEHHFgd02U6SFBU3dO" >}}
 {{< /img-grid >}}
 
 #### Saturation Boosters
