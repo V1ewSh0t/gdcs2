@@ -106,7 +106,7 @@ The Ball isn’t as snappy as the Cube, but it’s still relatively fast. It’s
 
 * Click to jump midair
 * Has air control
-* Jump arcs are always the same, smaller when mini
+* Jump arcs are always the same, but smaller when mini
 * Dies when hitting the side of a block
 * Jumps go farther as speed increases
 
