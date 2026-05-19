@@ -16,15 +16,9 @@ tags:
   - Gameplay Basics
 ---
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
-
-
-
 * Everything you do in gameplay, especially your gamemode choices, should be with a purpose.
 * Each gamemode has unique properties that allow them to function in different situations. These properties should be used to choose your gamemodes.
 * There are a lot of unique interactions between gamemodes and other gameplay objects which you can use to your advantage.
-
-
-
 {{< /callout >}}
 
 - - -
@@ -47,7 +41,7 @@ The first thing to understand with gamemodes is **their properties and how to us
 * No air control, can only be controlled on the ground
 * Jump arcs are always the same, smaller when in mini version
 * Dies when hitting the side or bottom of a block
-* Faster speeds have longer jumps
+* Faster speeds makes it jump longer 
 
 {{< img src="https://lh3.googleusercontent.com/d/1D6pKF9VB00QZU0PVsuzQi-5yfaign5Hc" >}}
 
