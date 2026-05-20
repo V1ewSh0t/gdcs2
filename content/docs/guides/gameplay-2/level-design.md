@@ -1,17 +1,21 @@
 ---
 draft: false
-title: Level Design
-weight: 7180
-date: 2025-01-14T00:00:00.000Z
-description: Level design is the process of designing and building areas, or levels, for games. This majorly influences how players will experience your map, and is a crucial part of complex gameplay. This guide will delve into the fundamentals of level design, and how you can use them to influence player behavior.
 authors:
   - intercomprehensible
+title: Game Design 1 (Level Design)
+weight: 7180
+date: 2025-01-14T00:00:00.000Z
 contributors:
   - everedeck
   - komatic5
   - illusion2
   - intercomprehensible
   - sethlai
+description: Level design is the process of designing and building areas, or
+  levels, for games. This majorly influences how players will experience your
+  map, and is a crucial part of complex gameplay. This guide will delve into the
+  fundamentals of level design, and how you can use them to influence player
+  behavior.
 tags:
   - Grade 2
   - Game Design
