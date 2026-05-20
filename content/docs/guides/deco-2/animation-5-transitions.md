@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Animation 5 (Transitions)
-weight: 8015
+weight: 8112
 date: 2026-05-19
 description: Transitions let you smoothly change the decoration in your level.
   Good transitions can be just as interesting as the actual decoration you're
