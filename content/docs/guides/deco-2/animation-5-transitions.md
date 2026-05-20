@@ -7,6 +7,10 @@ description: Transitions let you smoothly change the decoration in your level.
   Good transitions can be just as interesting as the actual decoration you're
   making. This guide will go over many types of transitions and explain how you
   can make them.
+authors:
+  - sparktwee
+contributors:
+  - sparktwee
 tags:
   - Grade 2
   - Animation
