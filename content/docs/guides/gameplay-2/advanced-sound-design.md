@@ -1,6 +1,6 @@
 ---
 draft: true
-title: Sound Design 3 (Advanced Sounds)
+title: Sound Design 4 (Advanced Sounds)
 weight: 7235
 date: 2026-05-20
 description: This guide explains advanced and complicated techniques to bring
