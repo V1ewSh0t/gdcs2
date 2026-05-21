@@ -1,14 +1,17 @@
 ---
 draft: false
+authors:
+  - kde
 title: Making Backgrounds
 weight: 5090
 date: 2023-06-22T00:00:00.000Z
-description: Backgrounds are often difficult to create because they must not only look interesting on their own, but also work well with your block designs. This guide explains how you can accomplish both of these goals when making your backgrounds.
-authors:
-  - kde
 contributors:
   - kde
   - komatic5
+description: Backgrounds are often difficult to create because they must not
+  only look interesting on their own, but also work well with your block
+  designs. This guide explains how you can accomplish both of these goals when
+  making your backgrounds.
 tags:
   - Grade 1
   - Deco Skills
@@ -52,11 +55,11 @@ Here are some levels which use detail contrast effectively.
 
 `Bloomng`’s part in `Honeydew` – The background is low contrast in color, with only a few subtle brightness and hue changes in the leaves and the sky. Additionally, it is quite simple in terms of details. This differs from the foreground, which has a high contrast in color between the gray stone, the green grass, and the flowers – all of which have lots of detail. This way, the player’s attention is dominated by the foreground.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jLplew2Dwsw" frameborder="0" allowfullscreen></iframe>
+{{< youtube jLplew2Dwsw >}}
 
 `No Return` (Preview) by `Culuc` and `nikrodox` – The background is the main focus for this particular section. The foreground is intentionally left as a solid color to allow the background to stand out more.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tuN6gERbMk0" frameborder="0" allowfullscreen></iframe>
+{{< youtube tuN6gERbMk0 >}}
 
 ## Brightness Contrast
 
@@ -70,11 +73,11 @@ Here are some examples of levels which use brightness contrast well.
 
 `Reunomi`’s part in `Scorpius` – The foreground block design is considerably darker than the background, allowing you to clearly see the shape of the structures.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7HJPL4RLZdc" frameborder="0" allowfullscreen></iframe>
+{{< youtube 7HJPL4RLZdc >}}
 
 `Dynamical` by `HanStor` – This level uses a more abstract style. Even so, notice how despite the numerous changes in hue, the difference in brightness between the foreground and background is maintained throughout the level.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4wl_mpnIjGI" frameborder="0" allowfullscreen></iframe>
+{{< youtube 4wl_mpnIjGI >}}
 
 # 3: Creating Depth
 
@@ -94,7 +97,7 @@ Furthermore, your background can have multiple layers, each further back than th
 
 For example, look at `Culuc`’s part in `Emerald Realm` . Many parallax background layers are used in this part, which gives the impression of a three dimensional space. The way it affects the viewer’s perception of the river is especially powerful; because of the many parallax background layers moving at the river banks, an illusion is created where the river (which is ultimately just a flat rectangle in shape) looks like it is being viewed from above, going into the far distance.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fMAYifajDac" frameborder="0" allowfullscreen></iframe>
+{{< youtube fMAYifajDac >}}
 
 ## Scale
 
