@@ -85,6 +85,8 @@ As you can see, the drawing begins with the “123” grayscale color value char
 
 This video goes more in-depth on how Lit Form and other light properties covered in this guide works, so it would be best to watch if this is still difficult to understand. [In-depth Lighting Video](<https://youtu.be/ad20_nSuYYM>) by LifeCheck.
 
+{{< youtube ad20_nSuYYM >}}
+
 # Sources
 
 Scott Robertson: How to Render, Ch.3
