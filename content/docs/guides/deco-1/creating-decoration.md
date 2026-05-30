@@ -29,6 +29,7 @@ aliases:
 ---
 
 {{< callout context="note" title="TLDR – What this guide covers" icon="outline/info-circle" >}}
+
 - There are many types of decoration you can create; elements of deco are things like block designs and backgrounds, while styles are *how* you make those things.
 - It's important to stay organized when decorating. Use the editor's features, like editor layers, z layers, colors, and triggers, to organize your level in a way that's comfortable for you.
 - To actually decorate, start by getting a deco idea and references. Then use those references to come up with basic shapes and details for your deco. Finally, get feedback from other creators and repeat the process.
@@ -53,7 +54,7 @@ These are the common types of deco you'll learn to make. You don't need *every e
 
 An example of clear block designs is in the level Royal Roost Ruins by Glubfuberz. The blocks clearly stand out against the other decoration, making it clear where the gameplay is.
 
-{{< youtube id="BmDUemwIJ" end=26 >}}
+{{< youtube id="BmDUemwIJ-I" end=26 >}}
 
 - Sometimes, other gameplay objects will be decorated too, such as spikes and orbs. Here, the spikes have some glow added to make them look more interesting.
 - You can read more about block designs [here](/docs/guides/deco-1/making-blocks/).
