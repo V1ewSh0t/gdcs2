@@ -8,10 +8,7 @@ date: 2024-09-18T00:00:00.000Z
 contributors:
   - illusion2
   - psytrancegd
-description: What makes a bossfight feel like one? Levels with bosses used to be
-  quite limited, but Update 2.2 has broadened the scope of what you can make a
-  boss do. And yet with more freedom comes more design choices, so this guide
-  will explain how you can make bosses and what can contribute to its design.
+description: What makes a bossfight feel like one? Levels with bosses used to be quite limited, but Update 2.2 has broadened the scope of what you can make a boss do. And yet with more freedom comes more design choices, so this guide will explain how you can make bosses and what can contribute to its design.
 tags:
   - Grade 2
   - Game Design

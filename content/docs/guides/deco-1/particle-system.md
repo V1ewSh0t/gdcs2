@@ -10,10 +10,7 @@ contributors:
   - komatic5
   - naem.less
   - halfcookedramen
-description: The particle system, while extremely powerful, can be daunting.
-  This is especially due to the number of options, and values. However, with
-  this guide and a little practice, you should be able to navigate the system
-  with at least a little more confidence.
+description: The particle system, while extremely powerful, can be daunting. This is especially due to the number of options, and values. However, with this guide and a little practice, you should be able to navigate the system with at least a little more confidence.
 tags:
   - Grade 1
   - Deco Features

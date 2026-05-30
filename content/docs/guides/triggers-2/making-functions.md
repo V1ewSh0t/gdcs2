@@ -2,15 +2,8 @@
 draft: true
 title: Making Functions
 weight: 6170
-date: 2026-05-25
-description: Once you start building increasingly complex systems, you may
-  encounter a lot of bugs, your setups may become unmanageable, or even you may
-  begin to loose understanding of the whole web of triggers being created. This
-  is where functions come in. They isolate individual bits of logic into
-  atomized setups with clear purposes, making setups easier to utilize,
-  understand, reuse and expand. This guide will cover all the considerations you
-  must know in order to properly create functions without shooting yourself in
-  the foot.
+date: 2026-05-25T00:00:00.000Z
+description: Once you start building increasingly complex systems, you may encounter a lot of bugs, your setups may become unmanageable, or even you may begin to loose understanding of the whole web of triggers being created. This is where functions come in. They isolate individual bits of logic into atomized setups with clear purposes, making setups easier to utilize, understand, reuse and expand. This guide will cover all the considerations you must know in order to properly create functions without shooting yourself in the foot.
 tags:
   - Grade 2
   - Trigger Setups

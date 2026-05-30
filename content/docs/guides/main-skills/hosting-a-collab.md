@@ -7,9 +7,7 @@ weight: 2140
 date: 2023-09-30T00:00:00.000Z
 contributors:
   - komatic5
-description: Collabs are always a popular way to make Geometry Dash levels.
-  However, you'll make many fatal mistakes unless you know how to manage them
-  properly. This guide will explain how to host a collab properly.
+description: Collabs are always a popular way to make Geometry Dash levels. However, you'll make many fatal mistakes unless you know how to manage them properly. This guide will explain how to host a collab properly.
 tags:
   - Grade 0
   - Community Work

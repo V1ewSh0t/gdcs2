@@ -8,15 +8,13 @@ date: 2024-04-03T00:00:00.000Z
 contributors:
   - tdp9
   - tv_box
-description: In this editor guide we’ll go over things you’ll need to organize
-  your objects. This will make creating a lot less painful in the long run.
+description: In this editor guide we’ll go over things you’ll need to organize your objects. This will make creating a lot less painful in the long run.
 tags:
   - Grade 0
   - The Editor
 seo:
   title: "Geometry Dash: Organizing Objects"
-  description: Part 3 of how to use Geometry Dash's level editor, going over
-    editor layers, select filter, and select all.
+  description: Part 3 of how to use Geometry Dash's level editor, going over editor layers, select filter, and select all.
   canonical: ""
   noindex: false
 ---
