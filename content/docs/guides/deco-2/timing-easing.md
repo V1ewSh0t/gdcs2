@@ -22,11 +22,13 @@ tags:
 
 
 
+
 - Timing measures movement in terms of frames: slow moving objects have more frames in between while fast moving objects have less frames.
 - Slow timing usually communicates the following: delay, old age, heaviness, grace, timelessness, patience.
 - Fast timing usually communicates the following: responsiveness, youth, lightweight, flashiness, rush hour, deadlines.
 - Easing explains how these frames are spaced out. Due to how objects tend to accelerate and decelerate when they move, it also can be translated in animation: Slow In, Slow Out.
 - Within the context of Geometry Dash, some triggers are equipped with their own easings that you can choose; some of which will have more versatile use cases than others.
+
 
 
 
@@ -170,8 +172,10 @@ Here we will explore many examples of timing and easing and explain them in dept
 
 Take this attack animation for example. Because the sword is extremely heavy, Ganondorf cannot swing it immediately, due to the inertia. The animation shows this by exaggerating the ease-in of the animation, to show him fighting against the sword's weight, before violently striking the ground from gravity.
 
-
-
 ![](https://media1.tenor.com/m/tvWglgD9r8cAAAAd/sonic-the-hedgehog-sonic.gif "sonic slowing down")
 
 You can also take Sonic's sudden halt for example. Because he runs faster than the speed of light, he cannot just "stop moving" (Unless you break the laws of physics, of course.) That is why he goes into a dramatic sliding animation to fight his intense forward force and momentum. It mimics friction and the sudden deceleration of speed, making the viewer see how fast Sonic was before the stop.
+
+
+
+You can even show emotion through timing.
