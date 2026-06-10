@@ -1,16 +1,19 @@
 ---
 draft: false
-title: Scroll Speed Bug
-weight: 4235
-date: 2023-12-16T00:00:00.000Z
-description: The Scroll Speed Bug is something you'll encounter when making very long levels, and it's impossible to fix. However, it's still important to know about as you create. This guide explains everything you need to know about the Scroll Speed Bug.
 authors:
   - mateussdev
   - unknown
+title: Scroll Speed Bug
+weight: 4235
+date: 2023-12-16T00:00:00.000Z
 contributors:
   - tv_box
   - mateussdev
   - unknown
+description: The Scroll Speed Bug is something you'll encounter when making very
+  long levels, and it's impossible to fix. However, it's still important to know
+  about as you create. This guide explains everything you need to know about the
+  Scroll Speed Bug.
 tags:
   - Grade 1
   - Gameplay Features
@@ -85,7 +88,7 @@ From Yang’s text above, we now know that the **Scroll Speed Bug (SSB)** is jus
 
 A very extreme example of this is Unknown Processing by MagicTabLordGD, where the player is placed at the X-pos limit of 60fps and via a move trigger, the entirety of Blast Processing moves towards the player. In Unknown Processing, we see how crazy the game behaves at such large distances. The quads which render the textures of the game are no longer quads due to their position being calculated incorrectly because of floating point imprecision. The wave is also moving only up and down since the x position of the player doesn’t change, locking it in place.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nlFyXTnNy24" frameborder="0" allowfullscreen></iframe>
+{{< youtube nlFyXTnNy24 >}}
 
 A more practical example is this showcase of [Blast Processing at 75000 FPS](https://youtu.be/rw5l_NNI-Ic).
 
