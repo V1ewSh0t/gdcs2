@@ -1,14 +1,16 @@
 ---
 draft: false
+authors:
+  - tdp9
 title: Show/Hide Player, Player Trail, & BG Effects
 weight: 3310
 date: 2024-01-08T00:00:00.000Z
-description: This guide explains how the Show/Hide Player, Player Trail, & BG Effect triggers work. They let you control if the player is shown, has a trail behind them, or if there are extra particles in the level background.
-authors:
-  - tdp9
 contributors:
   - komatic5
   - tdp9
+description: This guide explains how the Show/Hide Player, Player Trail, & BG
+  Effect triggers work. They let you control if the player is shown, has a trail
+  behind them, or if there are extra particles in the level background.
 tags:
   - Grade 1
   - Gameplay Triggers
@@ -21,15 +23,15 @@ tags:
 {{< /callout >}}
 
 ** **
-# 1: :ShowPlayer: :HidePlayer: Show/Hide Player Triggers
+# 1: Show/Hide Player Triggers
 
-The Show/Hide Player triggers are the 24th and 25th triggers in the triggers page. Their appearance consists of an icon with the words "show" or "hide" above it.
+The :ShowPlayer: :HidePlayer: Show/Hide Player triggers are the 24th and 25th triggers in the triggers page. Their appearance consists of an icon with the words "show" or "hide" above it.
 
 The Hide Player trigger makes the player icon invisible during gameplay.
 
 The Show Player trigger makes the player icon visible after it is hidden. This state is the default for all levels.
 
-{{< img src="https://lh3.googleusercontent.com/d/1usKhqLlDQYqHZtEvsBJz8mis9q2KHQDr" >}}
+{{< youtube SkQzXOGGdmM >}}
 
 # 2: Show/Hide Player Trail Triggers
 
@@ -39,14 +41,14 @@ The Show Player Trail trigger makes a trail of afterimages that follows the play
 
 The Hide Player Trail trigger makes the trail invisible. This state is the default for all levels.
 
-{{< img src="https://lh3.googleusercontent.com/d/1cTnXNA8lVJF8ILs3S84sYt_BvXfPqxi8" >}}
+{{< youtube hlc8LoZAnH8 >}}
 
-# 3: :BGEffectOn: :BGEffectOff: BG Effect On/Off Triggers
+# 3: BG Effect On/Off Triggers
 
-The BG Effect On/Off triggers are the 26th and 27th triggers in the triggers page. Their appearance consists of the words "BG Effect ON/OFF".
+The :BGEffectOn: :BGEffectOff: BG Effect On/Off triggers are the 26th and 27th triggers in the triggers page. Their appearance consists of the words "BG Effect ON/OFF".
 
 The BG Effect On trigger makes the BG Effect visible. This can only be seen during normal gameplay. This effect shows particles that fly around when you are in the Ship, UFO, and Wave game modes. This is the default state of all levels.
 
 The BG Effect Off trigger disables this effect.
 
-{{< img src="https://lh3.googleusercontent.com/d/1b9hkxacu0jc6m14zCspE1zvftLQPmFhI" >}}
+{{< youtube pxkBEjLP_4w >}}
