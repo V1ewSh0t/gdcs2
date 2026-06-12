@@ -8,7 +8,8 @@ date: 2025-03-01T00:00:00.000Z
 contributors:
   - electrifyxd
   - notamoderatr
-description: This guide explains how you can create basic sounds using a DAW, also known as an external audio-editing program.
+description: This guide explains how you can create basic sounds using a DAW,
+  also known as an external audio-editing program.
 tags:
   - Grade 2
   - Sound Design
@@ -96,13 +97,13 @@ Now that we understand some basic waveshapes, it's time to use these shapes to m
 
 In this clip below, different combined sine waves are demonstrated in an oscilloscope.
 
-https://cdn.discordapp.com/attachments/396504131088547842/1304489208680943617/2024-11-08_11-52-32.mp4?ex=672f93bf&is=672e423f&hm=037fb2577d028d480c4631deaa393c6968479529d634427803b829a89df0f370&
+{{< youtube vG20-OkVe1M >}}
 
 **Subtractive Synthesis** works in the opposite way of Additive Synthesis. Instead of adding new waveshapes to an existing waveshape, we can take frequencies away from that one waveshape to create new waveshapes. You can accomplish this with a filter on a synth.
 
 The example below showcases taking away the high end of a frequency with an oscilloscope. Pay attention to the waveshape taking form on the oscilloscope.
 
-https://cdn.discordapp.com/attachments/396504131088547842/1304490189866926212/2024-11-08_11-57-06.mp4?ex=672f94a9&is=672e4329&hm=5a1907a11a379385f79d36f9cac013a9ff355afd6cda233227cb2abd27f93589&
+{{< youtube 7MIylGNCSzk >}}
 
 # 4: Noise / Samplers
 
@@ -114,9 +115,9 @@ White noise has many practical uses. For instance, we can layer white noise with
 
 The example below demonstrates a saw wave and white noise to make a clicky sub-bass.
 
-https://cdn.discordapp.com/attachments/396504131088547842/1330602353409130566/2025-01-19_13-15-01.mp4?ex=678e9382&is=678d4202&hm=3cee02faaed1972fba9b690d876b31798282a61f40e3b533ccaf81df69610cd5&
+{{< youtube r_VSCgLqn8Y >}}
 
 Another example demonstrates white noise to create a riser and downlifter by moving the EQ. (LFO is normally used to automate this, but this will be covered in a more advanced lesson.)
 
-https://cdn.discordapp.com/attachments/396504131088547842/1330604468072353823/2025-01-19_13-24-18.mp4?ex=678e957a&is=678d43fa&hm=9c48f2f02f27397835611277c29de715e509d90935a28527f47a65656a0100c7&
+{{< youtube Ie3ekzFDiDA >}}
 
