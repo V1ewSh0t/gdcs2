@@ -111,6 +111,8 @@ Here we will explore many examples of timing and easing and explain them in dept
 
 ![](https://ssb.wiki.gallery/images/thumb/0/00/GanondorfFSmashSSBU.gif/300px-GanondorfFSmashSSBU.gif "Ganondorf attack gif")
 
+{{< gif src="https://ssb.wiki.gallery/images/thumb/0/00/GanondorfFSmashSSBU.gif/300px-GanondorfFSmashSSBU.gif" >}}
+
 Take this attack animation for example. Because the sword is extremely heavy, Ganondorf cannot swing it immediately, due to the inertia. The animation shows this by exaggerating the ease-in of the animation, to show him fighting against the sword's weight, before violently striking the ground from gravity.
 
 ![](https://media1.tenor.com/m/tvWglgD9r8cAAAAd/sonic-the-hedgehog-sonic.gif "sonic slowing down")
