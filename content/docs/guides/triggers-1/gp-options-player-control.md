@@ -39,7 +39,7 @@ The Options trigger lets you control the player's actions and controls, but the 
 
 {{< img src="https://lh3.googleusercontent.com/d/1heqpeciu1Rf7bO_RA1raePDNNOfzBN8x" >}}
 
-* **Unlink dual gravity:** Allows dual players to switch gravity independently. Normally, different gamemodes can have linked gravity, and toggling this option lets both icons have independent gravity, regardless of gamemode Learn more about the quirks of dual gravity [here](/docs/guides/gameplay-1/making-duals/).
+* **Unlink dual gravity:** Allows dual players to switch gravity independently. Normally, different gamemodes can have linked gravity, and toggling this option lets both icons have independent gravity, regardless of gamemode. Learn more about the quirks of dual gravity [here](/docs/guides/gameplay-1/making-duals/).
 * **Hide attempts:** Hides the attempt counter at the start of a level.
 * **Audio on death:** Continues to play music and SFX after the player dies.
 * **No death SFX:** Stops the Death Effect sound from playing, when the player dies.
