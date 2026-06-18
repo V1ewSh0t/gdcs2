@@ -132,11 +132,11 @@ Take a look at these attacks. When Jiequan leaps into the air slowly, it makes i
 Another example of this is when Jiequan uses one of his Crimson Attacks, where you are forced to use the Unbounded Counter to deflect the attack, or suffer heavy damage. The Unbounded Counter takes around 0.5 seconds to charge, and Jiequan goes into a stance for around 2 seconds. (Image 1) This allows the player to start charging up their Unbounded Counter, treating it like a grace period. The timing forces you to master it, because Jiequan is the first bossfight you do after unlocking the Unbounded Counter.
 
 {{< img-grid >}}
-![](https://lh3.googleusercontent.com/d/1fqOwMFflmPkeVASNPqhzIGlY04mZopLE)
+![](https://lh3.googleusercontent.com/d/1fqOwMFflmPkeVASNPqhzIGlY04mZopLE "Jiequan Crimson Attack Stance")
 
-![](https://lh3.googleusercontent.com/d/1o3K5CUcu9QN0CySpYDkmxKB4AXFaL8_l)
+![](https://lh3.googleusercontent.com/d/1o3K5CUcu9QN0CySpYDkmxKB4AXFaL8_l "Jiequan Crimson Attack Strike")
 
-![](https://lh3.googleusercontent.com/d/1oegJsiWJckg5qOgyEFay_LrnHomc9iHg)
+![](https://lh3.googleusercontent.com/d/1oegJsiWJckg5qOgyEFay_LrnHomc9iHg "Unbounded Counter")
 {{< /img-grid >}}
 
 Finally, take a look at this attack where Jiequan throws mines at the player where they explode soon after. Unlike his quick and striking blade attacks, the mines follow unpredictable movements which can catch the player off guard. The mines themselves ease in, then start falling to the ground relatively slowly, which gives the player time to react. Instead of testing the player's reaction time, the slow timing makes the player think. It gives them time to ask themselves: "Where can I move without being hit?" This creates clear contrast due to the clear opposition in comparison to his agile strikes.
