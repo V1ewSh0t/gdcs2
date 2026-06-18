@@ -115,7 +115,6 @@ Here we will explore many examples of timing and easing and explain them in dept
 
 Take this attack animation for example. Because the sword is extremely heavy, Ganondorf cannot swing it immediately, due to the inertia. The animation shows this by exaggerating the ease-in of the animation, to show him fighting against the sword's weight, before violently striking the ground from gravity.
 
-![](https://media1.tenor.com/m/tvWglgD9r8cAAAAd/sonic-the-hedgehog-sonic.gif "sonic slowing down")
 
 {{< gif src="https://media1.tenor.com/m/tvWglgD9r8cAAAAd/sonic-the-hedgehog-sonic.gif" >}}
 
@@ -124,11 +123,13 @@ You can also take Sonic's sudden halt for example. Because he runs faster than t
 
 You can even show emotion through timing.
 
-![](https://media.tenor.com/hKhRBbx1Oi8AAAAM/squidward-squidward-meme.gif)
+
+{{< gif src="https://media.tenor.com/hKhRBbx1Oi8AAAAM/squidward-squidward-meme.gif" >}}
+
 
 As you can see, Squidward clearly looks happy and relaxed, as he plops into the chair with fast movement. The fast timing directly correlates to the positive energy. The quick motion and the way he "plops" onto the chair and bounces shows that he feels good, rather then it being instantaneous with a hard impact where he just plummets onto it. On the other hand, if Squidward were tired, he'd probably get on the chair slowly, instead of quickly.
 
-![](https://media1.tenor.com/m/8UmntBwQJSsAAAAd/spongebob-spongebob-squarepants.gif "squidward annoyed putting back chair")
+{{< gif src="https://media1.tenor.com/m/8UmntBwQJSsAAAAd/spongebob-spongebob-squarepants.gif "squidward annoyed putting back chair" >}}
 
 Or even here, where  Squidward is annoyed and quickly packs up his lawn chair. If it had a smooth, slow ease, it would probably look like he was gently packing up everything, looking happy and calm. If it didn't have any real timing at all, the movement would look robotic, like an emotionless task being completed. Because it starts slow and Squidward rushes back to his house, it tells us he is doing that out of pure spite and annoyance.
 
