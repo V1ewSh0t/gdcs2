@@ -7,10 +7,7 @@ weight: 2170
 date: 2023-09-16T00:00:00.000Z
 contributors:
   - komatic5
-description: Speaking clearly is a crucial part of working with others and
-  getting feedback. It may seem obvious, but that's more reason why you
-  shouldn't neglect it. This guide will explain why communication is so
-  important, and some ways to communicate more clearly.
+description: Speaking clearly is a crucial part of working with others and getting feedback. It may seem obvious, but that's more reason why you shouldn't neglect it. This guide will explain why communication is so important, and some ways to communicate more clearly.
 tags:
   - Grade 0
   - Community Work

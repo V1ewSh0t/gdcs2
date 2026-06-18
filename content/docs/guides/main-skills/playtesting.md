@@ -8,10 +8,7 @@ date: 2023-03-14T00:00:00.000Z
 contributors:
   - sparktwee
   - tdp9
-description: Playtesting is crucial for all types of levels, even if they don't
-  have gameplay. It helps you spot visual bugs, gameplay bugs, and account for
-  different devices. This guide will explain some essential aspects of
-  playtesting.
+description: Playtesting is crucial for all types of levels, even if they don't have gameplay. It helps you spot visual bugs, gameplay bugs, and account for different devices. This guide will explain some essential aspects of playtesting.
 tags:
   - Grade 0
   - Community Work

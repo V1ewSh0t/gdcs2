@@ -8,9 +8,7 @@ date: 2024-01-25T00:00:00.000Z
 contributors:
   - eyz
   - komatic5
-description: This guide explains how the GP Options & Player Control triggers
-  work. They let you control aspects of the player and the level, like whether
-  you can see the attempt counter.
+description: This guide explains how the GP Options & Player Control triggers work. They let you control aspects of the player and the level, like whether you can see the attempt counter.
 tags:
   - Grade 1
   - Gameplay Triggers

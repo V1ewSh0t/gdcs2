@@ -9,9 +9,7 @@ contributors:
   - komatic5
   - themilkcat_tmc
   - iisventi
-description: This guide will explain the Random and Advanced Random triggers, as
-  well as some tips you should consider to use them in a fair way. These are the
-  easiest way to make probability-based trigger setups in Geometry Dash.
+description: This guide will explain the Random and Advanced Random triggers, as well as some tips you should consider to use them in a fair way. These are the easiest way to make probability-based trigger setups in Geometry Dash.
 tags:
   - Grade 1
   - Condition Triggers
