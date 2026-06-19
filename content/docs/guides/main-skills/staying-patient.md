@@ -1,16 +1,21 @@
 ---
 draft: false
-title: Staying Patient
-weight: 2090
-date: 2023-03-09T00:00:00.000Z
-description: Geometry Dash is a challenging game that requires a lot of skill and patience to succeed. If you want to create appealing levels, it's important to have a solid understanding of the game mechanics and the motivation to pay attention to small details. Patience is a key factor in this process, and in this guide, we will explore why patience is so important for creating in Geometry Dash.
 authors:
   - sparktwee
   - calibratorworks
+title: Staying Patient
+weight: 2090
+date: 2023-03-09T00:00:00.000Z
 contributors:
   - komatic5
   - sparktwee
   - calibratorworks
+description: Geometry Dash is a challenging game that requires a lot of skill
+  and patience to succeed. If you want to create appealing levels, it's
+  important to have a solid understanding of the game mechanics and the
+  motivation to pay attention to small details. Patience is a key factor in this
+  process, and in this guide, we will explore why patience is so important for
+  creating in Geometry Dash.
 tags:
   - Grade 0
   - Your Mindset
@@ -21,6 +26,7 @@ tags:
 - It allows you to take the time needed to create a well-designed level, to test and refine your level until it's balanced and enjoyable, to deal with setbacks and obstacles in a calm and productive way, and to enjoy the process of creating.
 - You can become more patient by being open to making changes in your levels, doing your best to stay calm, and taking breaks.
 {{< /callout >}}
+
 ** **
 
 # 1: What Patience Is
@@ -37,17 +43,17 @@ If you are waiting for something to happen but can still do something productive
 
 # 2: Why Patience Matters
 
-First and foremost, creating a level in Geometry Dash is not something that can be done quickly or easily. There are a lot of elements to consider, such as the layout of the level, the placement of obstacles and collectibles, and the timing of jumps and movements. All of these factors need to be carefully considered and tested before the level is ready to be shared with others.
+First and foremost, creating a level in Geometry Dash is *not* something that can be done quickly or easily. There are a lot of elements to consider, such as the layout of the level, the placement of obstacles and collectibles, and the timing of jumps and movements. All of these factors need to be carefully considered and tested before the level is ready to be shared with others.
 
 Even studying the GD editor and its mods will take time and practice to navigate around. Rushing through the process or cutting corners can result in a level that is frustrating or unenjoyable to play.
 
-While there are exceptions as shown in Build Jams and mini creator contests, there's a mostly high positive correlation between a level's quality and the time taken to complete. This is why it's recommended to not focus too much on quality when making a Build Jam level as within 3 days, your only aim is to complete the level.
+While there are exceptions as shown in Build Jams and mini creator contests, **there's a *mostly* high positive correlation between a level's quality and the time taken to complete**. This is why it's recommended to not focus too much on quality when making a Build Jam level as within 3 days, your only aim is to complete the level.
 
 Secondly, you need to be patient with yourself if you want to build well. You probably know how it feels to try making a level, only to give up because what you're making is far worse than what you imagined. You can’t rush yourself to make a perfect level, and as such you need to have patience with yourself.
 
 Take JonathanGD for example; he’s well known for levels like Future Funk. He spends hours, days, and even months in total to make his levels. Jonathan took 13 months and 143 streams to build and verify the project that we all know as “Dark Odyssey”. Jonathan almost never rushes himself, because he knows that it is difficult to make quality levels at a fast pace. All you need to do is trust the process, and do some work each day. Eventually, if you look back at everything you have done, you will see major progress in your skills at whatever you are trying to get better at, whether it be decoration, or gameplay.
 
-Finally, patience is crucial to deal with setbacks and obstacles. Creating a level in Geometry Dash is not always smooth sailing. There may be times when you hit roadblocks or encounter difficult problems. In these situations, it's important to stay calm and patient, and to keep working at the problem until you find a solution. This could mean experimenting with different elements, seeking advice from others, or simply taking a break and coming back to the problem with fresh eyes.
+Finally, patience is crucial to deal with setbacks and obstacles. Creating a level in Geometry Dash is not always smooth sailing. There may be times when you hit roadblocks or encounter difficult problems. In these situations, **it's important to stay calm and patient, and to keep working at the problem until you find a solution**. This could mean experimenting with different elements, seeking advice from others, or simply taking a break and coming back to the problem with fresh eyes.
 
 LIke any other guide that deals with psychology and mentality, it's easier said than done. In fact, when weighing the long term consequences with the short term rewards, it has become more difficult to stay patient nowadays, where anything you want is at the click of your fingertips. This creates a false expectation where quicker results mean better results. Fortunately, it also means that those who practice patience will thrive well in this world.
 
@@ -67,7 +73,7 @@ There are multiple ways to stay patient and calm. Some ways are a little more ti
 
 # 4: Balancing Patience and Wasting Time
 
-While patience is a virtue, there may be times when being too patient will waste your time.
+While patience is a virtue, **there may be times when being too patient will waste your time**.
 
 For example, let's say that you are hosting a collab with 7 creators. As mentioned in the Communication Guide, you've laid out your vision document and set up the necessary channels to reach out to those creators with ease, precision, and timeliness. However, 2 of these creators rarely talked. Even though you've reached out to them to build their parts since Day 1, they have no progress to show for.
 
