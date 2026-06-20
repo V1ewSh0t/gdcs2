@@ -8,6 +8,29 @@ import collections from '/admin/collections.js'
 
 const { h, createClass } = window;
 
+
+// image styling, valid for img and gif shortcodes.
+function renderImageShortcode(attrs) {
+  const srcMatch = attrs.match(/src\s*=\s*"?([^\s"]+)"?/);
+  const classMatch = attrs.match(/class\s*=\s*"?([^\s"]+)"?/);
+
+  const src = srcMatch ? srcMatch[1] : "";
+  const className = classMatch ? classMatch[1] : "";
+
+  const classStr = className ? `class="${className}"` : "";
+
+  // this is introduced so Decap searches from absolute routes if it encounters an internal website route.
+  // it keeps external urls intact.
+  const resolvedSrc = /^(https?:)?\/\//.test(src) || src.startsWith("/") ? src : `/${src}`;
+  console.log({
+    original: src,
+    resolved: resolvedSrc
+  });
+
+  return `<img src="${resolvedSrc}" ${classStr} loading="lazy" style="max-width: 100%; display: inline-block; vertical-align: middle; margin: 0 4px;" />`;
+}
+
+
 const PostPreview = createClass({
   render: function() {
     const { entry, getAsset } = this.props;
@@ -15,18 +38,15 @@ const PostPreview = createClass({
     let body = entry.getIn(['data', 'body']) || "";
 
     // {{< img >}} shortcode styling
-    body = body.replace(/{{<\s*img\s+([^>]+)\s*>}}/g, (match, attrs) => {
-        attrs = attrs.trim();
-        const srcMatch = attrs.match(/src\s*=\s*"?([^\s"]+)"?/);
-        const classMatch = attrs.match(/class\s*=\s*"?([^\s"]+)"?/);
+    body = body.replace(
+      /{{<\s*img\s+([^>]+)\s*>}}/g,
+      (match, attrs) => renderImageShortcode(attrs)
+    );
 
-        const src = srcMatch ? srcMatch[1] : "";
-        const className = classMatch ? classMatch[1] : "";
-
-        const classStr = className ? `class="${className}"` : "";
-
-        return `<img src="${src}" ${classStr} style="max-width: 100%; display: inline-block; vertical-align: middle; margin: 0 4px;" />`;
-      }
+    // {{< gif >}} shortcode styling
+    body = body.replace(
+      /{{<\s*gif\s+([^>]+)\s*>}}/g,
+      (match, attrs) => renderImageShortcode(attrs)
     );
 
     // {{< img-grid >}} shortcode styling
