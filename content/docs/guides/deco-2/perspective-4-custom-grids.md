@@ -109,4 +109,6 @@ Now, what if your form is elevated or in the ground? For this kind of positionin
 
 # 3. Practical Use Cases
 
-i Fin Later
+Due to the nature of the game, Geometry Dash creators are able to get creative with how they do perspective.
+
+In the first part of "Alien Dream Emulator" by kira9999, 
