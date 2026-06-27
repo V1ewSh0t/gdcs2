@@ -8,7 +8,8 @@ date: 2024-03-11T00:00:00.000Z
 contributors:
   - tv_box
   - tdp9
-description: This guide explains how the Screen Filter triggers work. These triggers place various screen filters or shaders on the level.
+description: This guide explains how the Screen Filter triggers work. These
+  triggers place various screen filters or shaders on the level.
 tags:
   - Grade 1
   - Effect Triggers
@@ -34,7 +35,7 @@ Generally, shaders can be divided into 2 categories: Screen effects and Color fi
 
 # 1: Screen Effects
 
-## Shader
+## {{< img src="images/GDEmotes/Triggers/Shader.png" class="emote">}} Shader
 
 __Sets a range of Z layers that other shader triggers will affect.__
 
@@ -46,7 +47,7 @@ __Sets a range of Z layers that other shader triggers will affect.__
 
 {{< youtube GBMR-d0AkqU >}}
 
-## Shock Wave
+## {{< img src="images/GDEmotes/Triggers/ShockWave.png" class="emote">}} Shock Wave 
 
 __Creates a shock wave that moves to or from a center point.__
 
@@ -70,7 +71,7 @@ __Creates a shock wave that moves to or from a center point.__
 
 {{< youtube 9tm6Vzmm4Qo >}}
 
-## Shock Line
+## {{< img src="images/GDEmotes/Triggers/ShockLine.png" class="emote">}} Shock Line
 
 __Creates a shock wave effect that moves across the screen.__
 
@@ -93,7 +94,7 @@ __Creates a shock wave effect that moves across the screen.__
 
 {{< youtube Gmau8P_saiQ >}}
 
-## Glitch
+## {{< img src="images/GDEmotes/Triggers/Glitch.png" class="emote">}} Glitch
 
 __Creates a glitch effect.__
 
@@ -107,7 +108,7 @@ __Creates a glitch effect.__
 
 {{< youtube IeHcRQEcg4A >}}
 
-## Chromatic
+## {{< img src="images/GDEmotes/Triggers/Chromatic.png" class="emote">}} Chromatic
 
 __Splits up RGB values and offsets them from each other.__
 
@@ -117,7 +118,7 @@ __Splits up RGB values and offsets them from each other.__
 
 {{< youtube EM2WCzJT-p8 >}}
 
-## Chromatic Glitch
+## {{< img src="images/GDEmotes/Triggers/ChromaticGlitch.png" class="emote">}} Chromatic Glitch
 
 __Creates a different glitch effect, with slightly more emphasis on chromatic effects.__
 
@@ -133,7 +134,7 @@ __Creates a different glitch effect, with slightly more emphasis on chromatic ef
 
 {{< youtube 8p9ySqcezMg >}}
 
-## Pixelate
+## {{< img src="images/GDEmotes/Triggers/Pixelate.png" class="emote">}} Pixelate
 
 __Pixelates the screen__.
 
@@ -145,7 +146,7 @@ __Pixelates the screen__.
 
 {{< youtube euBSob6lH_A >}}
 
-## Lens Circle
+## {{< img src="images/GDEmotes/Triggers/LensCircle.png" class="emote">}} Lens Circle
 
 __Creates a lens circle around a center point__
 
@@ -160,7 +161,7 @@ __Creates a lens circle around a center point__
 
 {{< youtube XKRk8oeeB54 >}}
 
-## Radial Blur
+## {{< img src="images/GDEmotes/Triggers/RadialBlur.png" class="emote">}} Radial Blur
 
 __Blurs the screen from a center point__.
 
@@ -176,7 +177,7 @@ __Blurs the screen from a center point__.
 
 {{< youtube TOtKl_kzBYc >}}
 
-## Motion Blur
+## {{< img src="images/GDEmotes/Triggers/MotionBlur.png" class="emote">}} Motion Blur
 
 __Blurs the screen based on the movement of the camera, player, or selected object__.
 
@@ -193,7 +194,7 @@ __Blurs the screen based on the movement of the camera, player, or selected obje
 
 {{< youtube 6yDiecQ_h1Y >}}
 
-## Bulge
+## {{< img src="images/GDEmotes/Triggers/Bulge.png" class="emote">}} Bulge
 
 __Bulges the screen__.
 
@@ -206,7 +207,7 @@ __Bulges the screen__.
 
 {{< youtube ChPFTMYxHBY >}}
 
-## Pinch
+## {{< img src="images/GDEmotes/Triggers/Pinch.png" class="emote">}} Pinch
 
 __Distorts the screen by “pinching” it__. The opposite of the bulge effect.
 
@@ -223,7 +224,7 @@ __Distorts the screen by “pinching” it__. The opposite of the bulge effect.
 
 # 2: Color Filters
 
-## Grayscale
+## {{< img src="images/GDEmotes/Triggers/GrayScale.png" class="emote">}} Grayscale
 
 __Filters the screen to a grayscale color__.
 
@@ -234,7 +235,7 @@ __Filters the screen to a grayscale color__.
 
 {{< youtube VLX5-fKeYpg >}}
 
-## Sepia
+## {{< img src="images/GDEmotes/Triggers/Sepia.png" class="emote">}} Sepia
 
 __Filters the screen with a sepia effect__.
 
@@ -243,7 +244,7 @@ __Filters the screen with a sepia effect__.
 
 {{< youtube H2807GrOMFM >}}
 
-## Invert Color
+## {{< img src="images/GDEmotes/Triggers/InvertColor.png" class="emote">}} Invert Color
 
 __Inverts the color of the screen__.
 
@@ -256,7 +257,7 @@ __Inverts the color of the screen__.
 
 {{< youtube MtO29gS8ttg >}}
 
-## Hue Shift
+## {{< img src="images/GDEmotes/Triggers/Hue.png" class="emote">}} Hue Shift
 
 __Shifts the hue of the colors on screen__.
 
@@ -265,7 +266,7 @@ __Shifts the hue of the colors on screen__.
 
 {{< youtube lfgdCSofICw >}}
 
-## Edit Color
+## {{< img src="images/GDEmotes/Triggers/EditColor.png" class="emote">}} Edit Color
 
 __Edits the RGB values of the colors on screen__.
 
@@ -275,7 +276,7 @@ __Edits the RGB values of the colors on screen__.
 
 {{< youtube SUraX52EAwA >}}
 
-## Split Screen
+## {{< img src="images/GDEmotes/Triggers/SplitScreen.png" class="emote">}} Split Screen
 
 __Splits the screen into multiple screens__.
 
