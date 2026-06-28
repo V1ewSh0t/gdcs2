@@ -151,7 +151,7 @@ Generally, shaders can be divided into 2 categories: Screen effects and Color fi
 
 ## Lens Circle
 
-**{{< img src="images/GDEmotes/Triggers/LensCircle.png" class="emote">}} Creates a lens circle around a center point**
+**{{< img src="images/GDEmotes/Triggers/LensCircle.png" class="emote">}} Creates a lens circle around a center point**.
 
 * **Size**: **The radius of the effect**. Higher values means a larger circle.
 * **Fade**: **The size of the gradient of the circle**. The fade is dependent on the size. Any values higher than the current size of the circle will be ignored as the max size is the max fade of the circle.
