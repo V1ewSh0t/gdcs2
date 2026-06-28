@@ -103,7 +103,7 @@ This problem is common for mobile devices due to bad polling rate from the devic
 
 Using only one method of playtesting is generally not a good idea since many factors can affect the sync in noticeable ways. Using multiple methods to check for consistency helps greatly. Some examples of good playtesting methods include:
 
-* Using {{< img src="images/GDEmotes/Triggers/StartPos.png" class="emote">}} **Start Positions** to playtest each part
+* Using {{< img src="images/GDEmotes/Triggers/StartPos.png" class="emote">}} **Start Positions** to playtest each part.
 
 * Using the {{< img src="images/GDEmotes/Triggers/TimeWarp.png" class="emote">}} **TimeWarp trigger in combination with the** {{< img src="images/GDEmotes/Triggers/EditSong.png" class="emote">}} **Edit Song trigger**, or if you have access to mods, **Speedhack** to slow the game down to check for sync and gameplay issues. 
 
