@@ -1,18 +1,18 @@
 ---
 draft: false
+authors:
+  - electrifyxd
 title: SFX & Edit SFX
 weight: 3322
 date: 2024-01-07T00:00:00.000Z
 description: This guide explains how the SFX & Edit SFX triggers work.
-authors:
-  - electrifyxd
-contributors:
-  - tv_box
-  - electrifyxd
 tags:
   - Grade 1
   - Audio Triggers
 math: true
+contributors:
+  - tv_box
+  - electrifyxd
 ---
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
@@ -180,4 +180,4 @@ This page is already covered in the fourth page of the SFX trigger, so this is g
 
 The video below demonstrates the usages of SFX and Edit SFX triggers:
 
-{{< img src="https://lh3.googleusercontent.com/d/1FbXa2GOVXoAYdyGai7vkdhwKPEL14C8Q" >}}
+{{< youtube mXsTVGZu0TM >}}
