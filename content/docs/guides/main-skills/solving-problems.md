@@ -1,16 +1,25 @@
 ---
-title: Solving Problems
-weight: 205
 draft: false
+title: Solving Problems
+weight: 2050
+date: 2024-07-31T00:00:00.000Z
+description: Sometimes, life just doesn’t go to plan. When you play or create levels in Geometry Dash, you may encounter bugs, glitches, or just aspects that you don’t like. These are all problems – unwanted situations you want to overcome – but solving them can be difficult. There are many frameworks you can use to solve your problems and continue your creating journey. This guide will uncover some of the most important ones.
+authors:
+  - komatic5
+contributors:
+  - komatic5
+  - sparktwee
+tags:
+  - Grade 0
+  - Creating Process
 ---
-## Guide info
-Medium: 12-14 minutes
 
-## TLDR - What this guide covers
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 - Problems will appear in your creating process; part of your ability to grow is in handling and overcoming them.
 - There are many frameworks to handling problems but a good starting point is to use productive thinking; this is like a detective starting an investigation; most of the time, this would be enough for solving simple problems.
 - Effectively solving complex problems, however, will need to be further broken down through issue trees, and first principles.
 - If you struggle with finding the right solution, you can also invert your thinking by exploring the wrong solutions and eliminating your possibilities from there.
+{{< /callout >}}
 
 ** **
 
@@ -71,15 +80,15 @@ For our example, here are some answers to the prior questions:
 
 **“How can I find which object is stopping the Static camera?”**
 
-> - Check Trigger Order and Channels, and ensure the Arrow trigger doesn’t interfere with this
-> - Remove individual objects to see if the system keeps breaking
-> - Make sure our object is compatible with the Static trigger (portals won’t work, neither will objects that are toggled off)
-> - Double-check each group – our camera object must be in a unique group, or our static cam trigger may be getting stopped by a Stop trigger or another Static trigger
+- Check Trigger Order and Channels, and ensure the Arrow trigger doesn’t interfere with this.
+- - Remove individual objects to see if the system keeps breaking.
+- Make sure our object is compatible with the Static trigger (portals won’t work, neither will objects that are toggled off).
+- Double-check each group – our camera object must be in a unique group, or our static cam trigger may be getting stopped by a Stop trigger or another Static trigger.
 
-**"How can I remake this system without using Static triggers?"**
+**“How can I remake this system without using Static triggers?”**
 
-> - Use Camera Edge triggers to restrict the horizontal camera movement
-> - Use Move triggers to simulate the camera moving around
+- Use Camera Edge triggers to restrict the horizontal camera movement.
+- Use Move triggers to simulate the camera moving around.
 
 ## 5: Choose the Best Solutions
 
@@ -93,7 +102,7 @@ Finally, you can plan how you’ll execute the solution. This isn’t always nec
 
 Our example is fairly low-level, so I’ll proceed with the main solutions from earlier. By doing so, I found that the teleport triggers were breaking the static camera. The same issue happened with teleport portals, so I ended up replacing them with moving platforms to take the player upwards through the gameplay.
 
-## 1: Abstraction Laddering
+# 1: Abstraction Laddering
 
 I mentioned low-level solutions earlier, but what does that mean? This is part of an important concept known as abstraction laddering. Some problems are highly technical but others are more abstract, so it’s important to identify what level of abstraction you need to solve your problem. Sometimes, stepping back to look at the big picture helps more than focusing on one or two specific objects, and vice versa. Think of this as a more refined strategy for steps 1 and 2 of productive thinking.
 
@@ -115,7 +124,7 @@ If there isn’t a medium-level problem, you could then ask a low-level question
 
 If figuring out the player’s speed is truly impossible, you can climb up to the highest level, ask yourself *Why do I need the player’s speed?*, and find a solution accordingly.
 
-## 2: Issue Trees & First Principles
+# 2: Issue Trees & First Principles
 
 Using productive thinking and abstraction laddering should suffice for most problems, especially simple ones. However, complex problems require more advanced methods of thinking, including breaking problems into smaller steps more often.
 
@@ -126,7 +135,7 @@ This is where issue trees and first principles come into play. They let you brea
 1. People don’t know your levels exist.
 2. People do know, but don’t like your levels.
 
-There are two types of issue trees: **problem trees** which break a broad problem into smaller parts by repeatedly asking *Why*, and **Solution Trees** that break a broad solution into small parts by constantly asking *How*. While this is useful, it’s more effective to ask a wider range of questions, which is where first principles come in.
+There are two types of issue trees: **Problem Trees**, which break a broad problem into smaller parts by repeatedly asking *Why*, and **Solution Trees**, that break a broad solution into small parts by constantly asking *How*. While this is useful, it’s more effective to ask a wider range of questions, which is where first principles come in.
 
 **First principles** break problems into their most basic truths - ones simple enough that you can’t break them down any further. In math, these are referred to as **axioms** or **givens** - statements you just assume are true because there’s not a way to prove them. For example, if you want to understand why rotate triggers need a center group, you can break it down as follows:
 
@@ -152,11 +161,11 @@ Issue trees and first principles show that even a simple, broad question can be 
 
 - Step 3 is encapsulated by this diagram:
 
-None
+{{< img src="https://lh3.googleusercontent.com/d/1tQeOulLQzMLzYYL1YuSWEirH91JSKEdm" >}}
 
 As you can see, even a supposedly “simple” question can have many factors. Analyzing each one lets you figure out where the real problems lie, and address them accordingly.
 
-## 3: Inversion
+# 3: Inversion
 
 As with issue trees and first principles, complex problems which involve many factors may also have a variety of potential solutions. However, this also means you must choose a good solution once you get to Step 5 of Productive Thinking. Sometimes, the best way to do this is through **inversion** - finding the worst solutions and removing them from your list.
 
@@ -164,12 +173,6 @@ This is similar to answering a multiple choice question: rather than finding the
 
 Referring back to the diagram above, many solutions are provided to improve in creating, but whether or not they work for you depends on your situation at the moment. Maybe you have been working hard in the editor but got burnt out along the way. If so, forcing yourself to work extra hours in the editor wouldn’t make much sense. Meanwhile, taking a break would be a more viable option to give yourself some time away from the editor and do other tasks.
 
+# Sources
 
-
-## Sources
 - [Tools for Better Thinking](<https://untools.co/>)
-
-
-
-## Credits
-Created by @Selena and @koma5
