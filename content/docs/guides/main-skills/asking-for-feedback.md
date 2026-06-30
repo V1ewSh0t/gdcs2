@@ -7,9 +7,7 @@ weight: 2040
 date: 2023-03-09T00:00:00.000Z
 contributors:
   - komatic5
-description: In this guide, we’ll outline how you should approach giving and
-  receiving feedback. This should help you receive better feedback and get more
-  meaningful interactions when you do so.
+description: In this guide, we’ll outline how you should approach giving and receiving feedback. This should help you receive better feedback and get more meaningful interactions when you do so.
 tags:
   - Grade 0
   - Creating Process
