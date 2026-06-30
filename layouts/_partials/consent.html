@@ -6,7 +6,10 @@
     function syncGtagConsent() {
       if (typeof gtag !== 'function') return;
       gtag('consent', 'update', {
-        analytics_storage: CookieConsent.acceptedCategory('analytics') ? 'granted' : 'denied'
+        analytics_storage: CookieConsent.acceptedCategory('analytics') ? 'granted' : 'denied',
+        ad_storage: CookieConsent.acceptedCategory('ads') ? 'granted' : 'denied',
+        ad_user_data: CookieConsent.acceptedCategory('ads') ? 'granted' : 'denied',
+        ad_personalization: CookieConsent.acceptedCategory('ads') ? 'granted' : 'denied'
       });
       //console.log(CookieConsent.acceptedCategory('analytics') ? 'granted' : 'denied');
     }
@@ -15,7 +18,8 @@
       guiOptions: { consentModal: { layout: 'box wide', position: 'bottom right' } },
       categories: {
         necessary: { enabled: true, readOnly: true },
-        analytics: { autoClear: { cookies: [ { name: /^_ga/ }, { name: '_gid' } ] } }
+        analytics: { autoClear: { cookies: [ { name: /^_ga/ }, { name: '_gid' } ] } },
+        ads: { autoClear: { cookies: [ { name: /^_ga/ }, { name: '_gid' } ] } }
       },
       onFirstConsent: syncGtagConsent,
       onConsent: syncGtagConsent,
@@ -38,7 +42,8 @@
               savePreferencesBtn: 'Save preferences',
               sections: [
                 { title: 'Strictly necessary', description: 'These cookies are used for site features, such as the search bar and the site\'s appearance.', linkedCategory: 'necessary' },
-                { title: 'Analytics', description: 'We collect anonymous data on website usage. For more info, see the Privacy Policy.', linkedCategory: 'analytics' }
+                { title: 'Analytics', description: 'We collect anonymous data on website usage. For more info, see the Privacy Policy.', linkedCategory: 'analytics' },
+                { title: 'Personalization', description: 'You have the option to enable interest-based ads on the site. This lets you see ads that actually interest you.', linkedCategory: 'ads' }
               ]
             }
           }

@@ -9,8 +9,7 @@ date: 2024-07-19T00:00:00.000Z
 contributors:
   - notamoderatr
   - tdp9
-description: This guide explains how the Gravity, Teleport, & Timewarp triggers
-  work. They let you control the player's location, gravity, and flow of time.
+description: This guide explains how the Gravity, Teleport, & Timewarp triggers work. They let you control the player's location, gravity, and flow of time.
 tags:
   - Grade 1
   - Gameplay Triggers

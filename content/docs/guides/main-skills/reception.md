@@ -9,13 +9,7 @@ contributors:
   - sparktwee
   - psytrancegd
   - colon
-description: Why do some levels receive mass reception and critical acclaim
-  while a vast majority get left by the wayside? What’s the common thread that
-  makes them hits? Is it strictly the level’s quality? Is it from its in-game
-  rating? Or maybe there is an invisible force controlling the numbers behind
-  the scenes? Can that success be controlled and repeated? This guide attempts
-  to explain the factors that contribute to a level’s reception and how much
-  influence you have over that reception.
+description: Why do some levels receive mass reception and critical acclaim while a vast majority get left by the wayside? What’s the common thread that makes them hits? Is it strictly the level’s quality? Is it from its in-game rating? Or maybe there is an invisible force controlling the numbers behind the scenes? Can that success be controlled and repeated? This guide attempts to explain the factors that contribute to a level’s reception and how much influence you have over that reception.
 tags:
   - Grade 0
   - Community Work
