@@ -62,7 +62,7 @@ The {{< img src="images/GDEmotes/Triggers/CameraStatic.png" class="emote">}} **S
 
 **Target Pos Group ID** is for the object the camera will lock to. *You can only have one object as the center.*
 
- **X Only** makes the trigger ignore the Y-axis when moving the camera. **Y Only** does the opposite; ignoring the X-axis.
+**X Only** makes the trigger ignore the Y-axis when moving the camera. **Y Only** does the opposite; ignoring the X-axis.
 
 If the center moves via a Move or Rotate trigger, the **Follow** option makes the camera move along with the center. The **Easing** slider to the right modifies the easing rate.
 
@@ -71,10 +71,10 @@ The **Smooth Velocity** option makes the transition to the target adapt to the c
 As the name implies, **Exit Static** disables the trigger and reverts the camera to its previous state. Ticking **Exit Instant** does it in an instant rather than easing to the previous state.
 
 {{< callout context="caution" title="Warning:" icon="outline/info-circle" >}}
-As of 2.208, there is a bug pertaining to the exit static option. When using a {{< img src="images/GDEmotes/Triggers/CameraStatic.png" class="emote">}}static camera with the Follow option enabled, attempting to exit the static camera will force the cameras Y level to be the same as the object originally being followed when entering a portal without Free mode enabled.
+As of 2.208, there is a bug pertaining to the exit static option. When using a static camera with the Follow option enabled, attempting to exit the static camera will force the camera's Y level to be the same as the object originally being followed when entering a portal without Free mode enabled.
 
 ** **
-To fix this, copy the original static camera trigger and place it 0.1 blocks before the exit static camrea trigger, making sure to uncheck the follow option.
+To fix this, copy the original static camera trigger and place it 0.1 blocks before the exit static camera trigger, making sure to uncheck the follow option.
 {{< /callout >}}
 This is how the Static Camera looks in game:
 
@@ -114,7 +114,7 @@ Here's a video demonstrating the Offset trigger:
 Meanwhile, the {{< img src="images/GDEmotes/Triggers/GPOffset.png" class="emote">}} **GP Offset** trigger __shifts the player’s position relative to the camera.__
 {{< img src="https://lh3.googleusercontent.com/d/1EfMgGaxgxJxu2wXGFpHsbMszc7JQNTBF" >}}
 
-**X Only** and **Y Only** works exactly like the Offset trigger, where they ignore each other’s axes. Ticking **Don’t Zoom** treats the offset as though no camrea zoom was applied.
+**X Only** and **Y Only** works exactly like the Offset trigger, where they ignore each other’s axes. Ticking **Don’t Zoom** treats the offset as though no camera zoom was applied.
 
 Pressing the **Default** button restores the original position between the player and the camera, which is typically a bit to the left.
 
@@ -144,7 +144,9 @@ The {{< img src="images/GDEmotes/Triggers/CameraEdge.png" class="emote">}} **Edg
 
 {{< img src="https://lh3.googleusercontent.com/d/1eBOFis9BqkGI_bscwHKBYmCmudN8w_UG" >}}
 
-The checkboxes **Left, Right, Up** and **Down** determine the edge the camera will be fixed to.**Unlock** resets the camera to its normal state.
+- The checkboxes **Left, Right, Up** and **Down** determine the edge the camera will be fixed to. 
+- **Unlock** resets the camera to its normal state.
+- Unlike the other camera triggers, you can't use a certain easing or modify the move time.
 
 Here's a video demonstrating the Edge trigger:
 
