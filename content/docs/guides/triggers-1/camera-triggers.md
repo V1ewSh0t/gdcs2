@@ -156,7 +156,7 @@ Here's a video demonstrating the Edge trigger:
 
 Some gamemodes by default have borders at the top and bottom such as the ball, ship, UFO, wave, spider, and swing gamemode. With the {{< img src="images/GDEmotes/Triggers/CameraMode.png" class="emote">}} **Mode trigger**, __you can remove these borders.__ It’s as simple as ticking **Free Mode**.
 
-{{< img src="https://lh3.googleusercontent.com/d/1DQ41cxpfmbZcbIfhsEjbCFWUd9X8oNG4" >}}
+{{< img src="https://lh3.googleusercontent.com/d/1-Z3zKAwOkcqn1t-gFWhZGLkUfjN2uu4X" >}}
 
 Ticking **Edit Camera Settings** leads you to two features that adjusts how the camera moves along the player:
 - **Easing:** changes how quickly the camera moves.
