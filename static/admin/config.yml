@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: komatic5/gdcs2
+  repo: GDCreatorSchool/gdcs2
   base_url: https://gdcsauth.officialxyno.workers.dev
   auth_endpoint: /auth
   branch: main
