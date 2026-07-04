@@ -145,7 +145,7 @@ The {{< img src="images/GDEmotes/Triggers/CameraEdge.png" class="emote">}} **Edg
 
 {{< img src="https://lh3.googleusercontent.com/d/1eBOFis9BqkGI_bscwHKBYmCmudN8w_UG" >}}
 
-- The checkboxes **Left, Right, Up** and **Down** determine the edge the camera will be fixed to. 
+- The checkboxes **Left, Right, Up** and **Down** determine the edge the camera will be fixed to.
 - **Unlock** resets the camera to its normal state.
 - Unlike the other camera triggers, you can't use a certain easing or modify the move time.
 
