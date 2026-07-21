@@ -2,8 +2,8 @@
 draft: true
 title: Sorting Algorithms
 weight: 9110
-date: 2024-09-30T00:00:00.000Z
-description: Description here
+date: 2026-07-21
+description: Guide describing various sorting systems and their implementations.
 tags:
   - Grade 3
   - Applied Math & Algorithms
@@ -14,6 +14,17 @@ seo:
   noindex: false
 math: true
 ---
+{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}} 
+
+- Uses and implementations of various sorting algorthms such as **Bubble Sort, Selection Sort, Merge Sort, Counting Sort, and Radix Sort.** 
+
+
+
+
+
+{{< /callout >}}
+
+- - -
 # 1: Introduction
 
 ### What is a sorting algorithm?
@@ -258,18 +269,5 @@ def Radix_Sort(Array):
     return Array
 ```
 
-# Summary
-
-{{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}} 
-
-- Uses and implementations of various sorting algorthms such as **Bubble Sort, Selection Sort, Merge Sort, Counting Sort, and Radix Sort.** 
-
-
-
-
-
-
-
-{{< /callout >}}
 
 - - -
