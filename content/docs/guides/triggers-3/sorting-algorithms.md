@@ -49,7 +49,7 @@ The time complexity is listed below:
 
 ### Implementation
 
-```
+```py
 '''1. Bubble Sort'''
 
 def Bubble_Sort(Array):
@@ -108,13 +108,12 @@ Merge Sort works by **splitting** the array into **smaller arrays**, dividing th
 
 #### Bottom-Up Approach
 
-We begin with our array of values. `[0,8,6,4,9,3,4,2]` We are going to imagine that each individual item in this array is its **own subarray** `[[0],[8],[6],[4],[9],[3],[4],[2]]` We are now going to **take each adjacent pair of subarrays and sort them**.
-
+We begin with our array of values. `[0,8,6,4,9,3,4,2]` We are going to imagine that each individual item in this array is its **own subarray** `[[0],[8],[6],[4],[9],[3],[4],[2]]` We are now going to take each adjacent pair of subarrays and sort them, **merging** the subarrays one layer.  `[[0,8],[4,6],[3,9],[2,4]]`
 {{< img src="https://lh3.googleusercontent.com/d/1jJ1Glpwv4OerTidS0z98OITy1ldGaD6B" >}}
 
-Now, we are going to **merge** the subarrays one layer. `[[0,8],[4,6],[3,9],[2,4]]`
 
-Now that we have this new array, we are going to sort the adjacent list again, comparing the first item in the first array with each item in the second array, moving the smaller value into another array:
+
+Now that we have these new arrays, we are going to sort the adjacent list again, **comparing** the first item in the first array with each item in the second array, moving the smaller value into another array:
 
 {{< img src="https://lh3.googleusercontent.com/d/1131wcbecWFfHDAUoT_aIdeDidGQpKf5S" >}}
 
