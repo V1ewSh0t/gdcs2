@@ -178,6 +178,14 @@ def Merge_Sort(Array):
 ```
 
 ## Algorithm 4: Counting Sort
+**Counting Sort** is a non-comparison based sorting algorithm, great for arrays with small integer values. It works by taking count of every **distinct** number in the array, computing their **starting positions** via **cumulative sums**, and mapping the original array to the new array using said new positions.
+
+Because of its **simplicity, efficiency, and stability**, it is commonly used in conjunction with other sorting algorithms such as **Radix Sort**, which will be discused in the next section.
+
+The time complexity is listed below:
+
+* Overall: `O(n + k)`
+* k = range of keys
 
 ### Implementation
 
@@ -210,7 +218,12 @@ def Counting_Sort(Array):
 ```
 
 ## Algorithm 5: Radix Sort
+**Radix Sort** is a non-comparative, stable sorting algorithm that sorts values by their **Significant Digits**, going from the *Most Significant Digit* to the *Least Significant Digit*. To sort the individual digits, Radix Sort relies on a secondary, *Stable sorting algorthim*, commonly using **Counting Sort** as said algorithm. 
 
+The time complexity is listed below:
+
+* Overall: `O(d*(n + b))` 
+* D is the # of digits in the largest element and b is the base # system
 ### Implementation
 
 ```py
