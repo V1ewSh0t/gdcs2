@@ -16,89 +16,62 @@ math: true
 ---
 # 1: Introduction
 
-
 ### What is a sorting algorithm?
-
 
 A sorting algorithm is a **function** that takes in a **list/array** and **sorts** the items inside numerically from least to greatest/greatest to least. 
 
-
 Sorting algorithms are incredibly useful when dealing with **large amounts of data** that have a certain priority to the items inside. For example, in 3D engines, triangles are drawn from **farthest to closest**. *(this does not apply to techniques such as raytracing)* If the triangles were left unsorted, tris farther away can render on top of tris closer to the camera. To combat this, engines will **sort the tris based off of their Z position**, sorting from least to greatest. Other uses include **pathfinding/AI**, where nodes need to be sorted by their **priority** in what's commonly called an **"open list" or "frontier"** to determine where to move next.
-
 
 Sorting algorithms are also used in many applications that deal with parsing through and retrieving information from large datasets. 
 
-
 ## List structure:
-
 
 In this guide, I will be using a **simple dynamic array** structure that has 1000 addresses. Your structure **does not** need to include that many, but to showcase performance and speed, I will be using this structure.
 
-
 If you need a refresher on how to make a dynamic array structure, you can follow along here, otherwise you can skip to the algorithms.
-
 
 # 2: Sorting Algorithms
 
-
 ## Algorithm 1: Bubble Sort
-
 
 Out of the 5 algorithms listed in this guide, this is the **easiest one conceptually and to implement**. It is commonly used for educational purposes due to its high learnability, and small datasets (1-20) as the performance increase from faster algorithms are negligible.
 
-
 Bubble Sort works by **repeatedly swapping adjacent elements** if they are in the wrong order. The algorithm makes multiple passes through the array, ignoring sorted values. 
-
 
 Bubble Sort is useful for when the **data set is minimal** as larger arrays **significantly increase computational time.**
 
-
 The time complexity is listed below:
-
 
 * Best: `O(n)` 
 * Average: `O(n^2)` 
 * Worst: `O(n^2)`
 
-
 ### Implementation
-
 
 ## Algorithm 2: Selection Sort:
 
-
 Selection Sort is a **comparison based algorithm**, the second easiest in this guide. Commonly used for **small data sets** and in situations where memory is limited due to the fact that it’s an in **place sorting algorithm.**
-
 
 Selection Sort works by finding the **smallest element in the array, swapping it with its current item, the pointer moving to the next element in the array.** This repeats until the full array has been sorted. 
 Like Bubble Sort, Selection Sort is useful for small data sets as computational time significantly increases as the array increases.
 
-
 The time complexity is listed below:
-
 
 * Best: `O(n^2)`
 * Average: `O(n^2` 
 * Worst: `O(n^2)`
 
-
 ### Implementation
-
 
 ## Algorithm 3: Merge Sort
 
-
 Merge Sort is a very popular sorting algorithm due to its efficiency and stability. Used for large datasets and when memory is not an issue. 
-
 
 Merge Sort works by **splitting** the array into **smaller arrays**, dividing the arrays in half until it can no longer be divided. It then **sorts each subarray** in pairs using the Merge Sort algorithm and **merges** the subarrays, repeating the process until the array is fully sorted. *(Confused? Don’t worry, I was too when learning this.)* There are two implementations of the Merge Sort algorithm, the **Top Down** approach and the **Bottom Up** approach, the Bottom Up approach being the one we are implementing here.
 
-
 #### Bottom-Up Approach
 
-
 We begin with our array of values. `[0,8,6,4,9,3,4,2]` We are going to imagine that each individual item in this array is its **own subarray** `[[0],[8],[6],[4],[9],[3],[4],[2]]` We are now going to **take each adjacent pair of subarrays and sort them**.
-
 
 ```
 0,8 → 0,8
@@ -107,12 +80,9 @@ We begin with our array of values. `[0,8,6,4,9,3,4,2]` We are going to imagine t
 4,2 → 2,4
 ```
 
-
 Now, we are going to **merge** the subarrays one layer. `[[0,8],[4,6],[3,9],[2,4]]`
 
-
 Now that we have this new array, we are going to sort the adjacent list again, comparing the first item in the first array with each item in the second array, moving the smaller value into another array:
-
 
 ```
 [0,8] + [4,6] → [8] + [4,6] → [8] + [6] → [8]    →    [] 
@@ -123,9 +93,7 @@ Now that we have this new array, we are going to sort the adjacent list again, c
 []              [2]           [2,3]        [2,3,4]    [2,3,4,9]    
 ```
 
-
 Now we **repeat** the process 1 more time, **merging** `[0,4,6,8]` and `[2,3,4,9]` together:
-
 
 ```
 [0,4,6,8] + [2,3,4,9] → [4,6,8] + [2,3,4,9] → [4,6,8] + [3,4,9] → [4,6,8] + [4,9] →  
@@ -133,45 +101,214 @@ Now we **repeat** the process 1 more time, **merging** `[0,4,6,8]` and `[2,3,4,9
            
 [6,8] + [4,9] → [6,8] + [9] → [8] + [9]    →    [9]         →         []
 [0,2,3,4]       [0,2,3,4,4]   [0,2,3,4,4,6]     [0,2,3,4,4,6,8]       [0,2,3,4,4,6,8,9]
-
-
 ```
-
-
-
 
 **Remember**, Merge sort **never rearranges elements** inside a subarray, it only **merges already-sorted subarrays.**
 
-
-
-
 Because of its **efficiency**, merge sort is a **very popular algorithm**, often used for large data sets.
-
 
 The time complexity is listed below:
 
-
 * Overall: `O(n log n)`
-### Implementation
 
+### Implementation
 
 ## Algorithm 4: Counting Sort
 
-
 ### Implementation
-
 
 ## Algorithm 5: Radix Sort
 
-
 # Summary
 
+# TEMP CODE BLOCKS:
+
+```
+'''1. Bubble Sort'''
+
+def Bubble_Sort(Array):
+    Swapped = True; #Initializes Swap variable
+    while Swapped == True:
+        Swapped = False; #Sets loop up to end if no swap
+        for i,v in enumerate(Array):
+            # Checks to see if both index > 0 and current value is less than last value
+            if i > 0 and v < Array[i-1]: 
+                minvalue = v # Saves the current value for swapping
+                Array[i] = Array[i-1] #Swaps the current value with the last value
+                Array[i-1] = minvalue # Sets the last value to the saved current value
+                Swapped = True # Continues loop
+    return Array
+```
+
+```
+'''2. Selection Sort'''
+
+def Selection_Sort(Array):
+    for CI in range(len(Array)): #CI = Current Index: Goes through length of Array
+        MI = 0 #Minimum Index
+        MV = float('inf') #Minimum Value, Uses infinity so the first value is min
+        for i,v in enumerate(Array):
+            if i > CI - 1 and v < MV:
+                #Itterates through to find minimum value
+                MV = v
+                MI = i
+        #Swaps the current index value and the minimum index value:
+        CIV = Array[CI]
+        Array[CI] = MV
+        Array[MI] = CIV
+    return Array
+```
+
+```
+'''#3. Merge Sort'''
+
+def MS_SortSubArray(LeftArray,RightArray):
+    SubArray = [] #Final Sorted SubArray
+    LAI = 0 #Left Array Index
+    RAI = 0 #Right Array Index
+    
+    '''Continuously goes through both Left and Right Arrays, checking for min values
+    and appending to SubArray'''
+    
+    while LAI < len(LeftArray) and RAI < len(RightArray):
+        if LeftArray[LAI] < RightArray[RAI]:
+            SubArray.append(LeftArray[LAI])
+            LAI += 1
+        else:
+            SubArray.append(RightArray[RAI])
+            RAI += 1
+
+    #Takes remaining values and adds to SubArray
+    if LAI == len(LeftArray):
+        SubArray += RightArray[RAI:]
+    else:
+        SubArray += LeftArray[LAI:]
+    return SubArray
+
+def Merge_Sort(Array):
+    SAS = 2 #Sub Array Size
+    while SAS < 2 * len(Array):
+        for SAI in range(0,len(Array),SAS): #Sub Array Index
+            
+            #Sets up both Left and Right Arrays
+            LeftArray = Array[SAI : SAI + (SAS//2)]
+            RightArray = Array[(SAI + SAS//2) : SAI + SAS]
+            
+            Array[SAI : SAI + len(LeftArray) + len(RightArray)] = \
+            MS_SortSubArray(LeftArray,RightArray) # Sorts Individual Sub arrays
+        SAS *= 2 #Increases Sub Aray Index by a multiple of 2
+    return(Array)
+```
+
+```
+'''4. Counting Sort'''
+
+def Counting_Sort(Array):
+    #Initialization of MaxNum,CountArray And FinalArray arrays
+    MaxNum = max(Array) + 1
+    CountArray = [0] * MaxNum
+    FinalArray = [0] * (len(Array))
+    
+    #Counts all instances of each number in Array
+    for i in Array:
+        CountArray[i] += 1
+    
+    #Stores cumulative sum of elements in CountArray
+    for i in range(1,len(CountArray)):
+        CountArray[i] += CountArray[i-1]
+    
+    '''Uses the Array Value as an Index to Count Array, 
+    Using Count array's resulting value as an index for Final Array, 
+    subtracting 1 to align with Array'''
+    
+    for i in range(len(Array)-1,-1,-1):
+        FinalArray[CountArray[Array[i]]-1] = Array[i]
+        CountArray[Array[i]] -= 1
+
+    return FinalArray
+```
+
+```
+'''5. Radix Sort'''
+
+    
+    ''' Same as normal Counting Sort, but sorts using the integer in the 
+    specific decimal place indicated via the exp variable'''
+def RS_CountingSort(Array,num,exp):
+    FinalArray = [0] * num
+    CountArray = [0] * 10
+    for i in range(num):
+        CountArray[(Array[i] // exp) % 10] += 1
+    for i in range (1,10):
+        CountArray[i] += CountArray[i - 1]
+    for i in range(num-1,-1,-1):
+        FinalArray[CountArray[(Array[i] // exp) % 10] - 1] = Array[i]
+        CountArray[(Array[i] // exp) % 10] -= 1
+    return FinalArray
+        
+        
+def Radix_Sort(Array):
+    num = len(Array)
+    MaxNum = max(Array) #Gets maximum number in Array
+    exp = 1 #Initializes exponent
+    
+    while MaxNum / exp > 0:
+        Array = RS_CountingSort(Array,num,exp)
+        exp *= 10 #Increases exp by a factor of 10
+    return Array
+```
+
+```
+'''6. EXTRA Quick Sort'''
+
+def partition(QuickSort_Array,low,high): #Hoare's Partition Scheme
+    pivot = QuickSort_Array[low]
+    LI = low - 1 #Left Index
+    RI = high + 1 #Right Index
+    
+    while True:
+        LI += 1
+        # Finds Array element greater-than or equal to pivot
+        while QuickSort_Array[LI] < pivot:
+            LI += 1
+            
+        RI -= 1
+        # Finds Array element less-than or equal to pivot
+        while QuickSort_Array[RI] > pivot:
+            RI -= 1
+        # When both LI and RI pointers meet
+        if LI >= RI:
+            return RI
+        
+        # Swaps LI and RI Array elements. Uses Temp as temporary storage
+        Temp = QuickSort_Array[LI]
+        QuickSort_Array[LI] = QuickSort_Array[RI]
+        QuickSort_Array[RI] = Temp
+
+
+def Quick_Sort(QuickSort_Array,Low,High):
+    if (Low < High):
+        #Pi = Partitioning Index
+        Pi = partition(QuickSort_Array,Low,High)
+        # Sort Elements Before Partition
+        Quick_Sort(QuickSort_Array,Low,Pi)
+        # Sort Elements After Partition
+        Quick_Sort(QuickSort_Array,Pi + 1, High)  
+#__________________________________________________ 
+
+Quick_Sort(QuickSort_Array,0,len(Array)-1)
+print (QuickSort_Array)
+```
 
 {{< callout context="note" title="TLDR - What this guide covers" icon="outline/info-circle" >}}
 
 
 
+
+
 -
+
+
 
 
 
