@@ -19,7 +19,7 @@ tags:
 
 
 # What Are Dependencies?
-Triggers technically are **functions** - they take various **inputs** *(e.g. groups, delays, ect)* and perform **outputs**. These outputs can range from changing object properties *(such as position, rotation, scale, color, ect)* to triggering **other triggers**.
+Triggers technically are **functions** - they take various **inputs** *(e.g. groups, delays, ect)* and perform **outputs**. These outputs can range from changing object properties *(such as position, rotation, scale, color, ect)* to triggering **other triggers**. Functions can be either **Independent** or **Dependent.**
 
 ## Independent Functions
 **Independent** functions are functions that work completely on their own. This means the set of their inputs is fully disjoint, and neither trigger is an action of the other.
@@ -27,12 +27,14 @@ Triggers technically are **functions** - they take various **inputs** *(e.g. gro
 - **Neither trigger is an action of the other** means they don’t activate each other. Note that this means triggers activated as part of the same function can still be independent from each other
 
 
-- **Condition triggers** operate **independently** from non trigger objects. *(e.g. you can add a trigger and a block to group A, and spawning/stopping that group doesn’t affect the block at all)*
+- **Spawn-activating triggers** operate **independently** from non trigger objects. *(e.g. you can add a trigger and a block to group A, and spawning/stopping that group doesn’t affect the block at all)*
 
 ## Dependent Functions
 **Dependent** functions are functions that **depend** on another produce an output.
 
 For example, activating a rotate trigger **before** a move trigger when the object is off center will make the object to rotate first, then move, causing the object to **rest outside the original objects circle of revolution.** Activating the rotate trigger **after** the move trigger will **shift the circle of revolution**, increasing or decreasing its size, but keeping the rotating object aligned with it.
+
+(Image goes here)
 
 Other examples include:
 - **Item edit triggers** and PEMDAS order of operations
@@ -88,10 +90,14 @@ Utilizing **tracking objects and item ids** can help **display** the statuses of
 - **Background Pulses** or **Blank Objects** to indicate when something activates.
 - **Text Objects** that toggle on and off depending on what action is being performed.
 
+(Image goes here)
+
 ### Dependent to Independent
 **Converting dependent operations into independent operations** can help keep operations seperate and easily reversable.
 
-For **Object State Changing** operations, utilizing **Area Triggers** is one of the best ways to keep operations independent as area triggers are **commutative** 
+For **Object State Changing** operations, utilizing **Area Triggers** is one of the best ways to keep operations independent as area triggers are **commutative.** 
+
+(Image goes here)
 
 Breaking seperate operations into **seperate objects** can help keep said operations from **interfering** with each other. Easiest to show with move & rotate example:
 - Move triggers **change the distance at which objs rotate**, which impacts the rotation on its way back
@@ -105,15 +111,20 @@ Follow triggers have dependencies with move triggers but they dont affect each o
 
 # Non-Spawn Dependencies
 ## Sequential
-These are triggers activated normally one after another, **without** being activated by **condition or spawn triggers.**
+These are triggers activated normally one after another, either being activated through **Spawn ordered,** or without being activated by **spawn-activating triggers** at all.
 - The **closest** two triggers can be before **activating in the same frame** is `1.00` unit.
+
+(Image goes here)
+
+By using **Spawn Ordered** spawn triggers, it is possible to change the activation order **In runtime** by physically moving the triggers being activated.
+
 ## Simultaneous
 The word *Simultaneous* here is A lie. When triggers activate in the same frame, the game doesn't activate all triggers in parallel, it activates triggers in a **very specific order.**
 
-Geometry dash, like every other game, has something called a **Game Loop**. This is a loop the game runs every frame, activating different functions in a specific order:
+Geometry dash, like every other game, has something called a **Game Loop**. This is a loop the game runs every frame, activating different functions in a specific order. Every trigger in the level can only be activated **once**. That means unless using remaps, a trigger sequence cannot be activated twice in the same frame.
 
 
-### Activation Order (prob make into an image, idk)
+### Activation Order (gif needed)
 - MainTime update
 - Checkpoint (respawn)
 - Spawn limit reset #1
@@ -143,14 +154,30 @@ Geometry dash, like every other game, has something called a **Game Loop**. This
 - Collision (on exit)
 - Undetermined: Color, Pulse, Camera, & Shader triggers
 
-{{< callout context="note" title="Credits:" icon="outline/info-circle" >}}
+{{< callout context="N/A" title="Credits:" icon="outline/info-circle" >}}
 
 Massive credits to [HDanke](https://uhdanke.github.io/gd_docs/triggers/general/game_loop) for making this extensive list.
 
 {{< /callout >}}
 
 # Spawn Dependencies & Control Flow
-ok im going to take a quick break lmao im exausted
+### Branching & Merging
+Branching is when one trigger calls multiple different **branches** of triggers, each branch performing different sequences of actions; each branch having the ability to be activated and controlled separately. 
+
+(gif goes here)
+
+Activating multiple trigger setups at the same time **does not** activate them in parralel, instead relying on the **game loop's activation order.** 
+
+### Global vs. Local Scope
+Because normally triggers activate in whats called the **Global Scope,** different branches have the ability to affect each other, especially if **both rely on the same dependencies.**
+- If you have **two branches A and B**, you can make branch B interrupt A by adding a **Pause trigger that targets the original group of A.** Even though A and B are both activated by the same group, you’ll need each to have additional unique groups for this to work *(or you’re just pausing both branches)*
+
+By using remaps, both triggers and item ids can function in the **Local Scope** instead of the global scope. This means triggers and item ids **will not interfere** with each other, even if the same function is activated. This also **removes** the possibility of two functions *(or the same function)* **having dependencies with each other.**
+- If you have **function A** that moves an object depending on its location and **function B** that gets said objects location in world spcace, by using **remaps** it's possible to have 2 different objects **activate both functions** while not **interfering** with each other.
+
+
+
+
 
 
 
