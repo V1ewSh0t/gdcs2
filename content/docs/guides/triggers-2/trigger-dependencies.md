@@ -124,36 +124,8 @@ The word *Simultaneous* here is A lie. When triggers activate in the same frame,
 Geometry dash, like every other game, has something called a **Game Loop**. This is a loop the game runs every frame, activating different functions in a specific order. Every trigger in the level can only be activated **once**. That means unless using remaps, a trigger sequence cannot be activated twice in the same frame.
 
 
-### Activation Order (gif needed)
-- MainTime update
-- Checkpoint (respawn)
-- Spawn limit reset #1
-- Spawn (delay)
-- Spawn limit reset #2
-- Toggle Object
-- Event
-- Touch
-- Timer & Time Event
-- Keyframe (spawn)
-- Keyframe (move)
-- Scale
-- Rotate
-- Move
-- Follow Player Y
-- Advanced Follow
-- Follow
-- Area Scale
-- Area Rotate
-- Area Move
-- Collision (on enter)
-- State (on enter)
-- Instant (touch triggered)
-- State (on exit)
-- On Death
-- Player movement & Timeline
-- Collision (on exit)
-- Undetermined: Color, Pulse, Camera, & Shader triggers
 
+{{< gif src="https://lh3.googleusercontent.com/d/1pqw170XTDCZu5Ed5MHZI_IO-WWTMhdkD" >}}
 {{< callout context="N/A" title="Credits:" icon="outline/info-circle" >}}
 
 Massive credits to [HDanke](https://uhdanke.github.io/gd_docs/triggers/general/game_loop) for making this extensive list.
